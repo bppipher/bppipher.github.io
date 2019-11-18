@@ -1,4 +1,5 @@
 name: "Brandon P. Pipher"
+output_dir: "."
 navbar:
   title: "Brandon P. Pipher"
   left:

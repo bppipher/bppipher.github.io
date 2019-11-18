@@ -1,0 +1,6 @@
+name: "Brandon P. Pipher"
+navbar:
+  title: "Brandon P. Pipher"
+  left:
+    - text: "Home"
+      href: index.html

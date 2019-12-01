@@ -1,13 +1,3 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153672431-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-153672431-1');
-</script>
-
 <img src="images/pipher.png" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
 I am currently a graduate student at Kent State University. My student directory is [here.](https://www.kent.edu/math/brandon-pipher)

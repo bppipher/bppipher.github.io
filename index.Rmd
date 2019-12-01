@@ -1,3 +1,4 @@
+<link erel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
 <img src="images/pipher.png" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
 I am currently a graduate student at Kent State University. My student directory is [here.](https://www.kent.edu/math/brandon-pipher)

@@ -14,7 +14,7 @@ navbar:
       href: https://github.com/bppipher
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/brandonpipher/
-    - icon: fa-orcid fa-lg
+    - icon: "<img id=\"logo\" style=\"width: 30px;\" src=\"images/pipher.png\" />"
       href: https://orcid.org/0000-0002-2553-3212/
 output:
   html_document:

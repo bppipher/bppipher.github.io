@@ -14,15 +14,17 @@ navbar:
       href: https://github.com/bppipher
     - icon: fa-linkedin fa-lg
       href: https://www.linkedin.com/in/brandonpipher/
-    - icon: fa-orcid fa-lg
+    - icon: ai-orcid ai-lg
       href: https://orcid.org/0000-0002-2553-3212/
+    - icon: ai-cv ai-lg
+      href: cv.html
 output:
   html_document:
     theme: cosmo
     include:
       in_header: 
-        - GoogleAnalytics.html
         - header.html
+        - GoogleAnalytics.html
       after_body: 
         - footer.html
     css: styles.css

@@ -5,6 +5,8 @@ exclude:
 navbar:
   title: "Brandon P. Pipher"
   left:
+    - text: "Home"
+      href: index.html
     - text: "Other"
       menu:
         - text: "Resources"

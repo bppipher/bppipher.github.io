@@ -9,3 +9,6 @@ Clone theme repository
 Install Git, Go and Hugo (using winget)
 
 Use 'hugo' to set up and 'hugo server -D' to serve locally with draft posts
+
+Pull ./.github/workflows/import-notebooks.yml from another repo and create ./notebooks/ directory
+

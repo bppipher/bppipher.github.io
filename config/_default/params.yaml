@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: emerald
+  color: indigo
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: "Brandon P. Pipher's personal website."
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -33,18 +33,19 @@ header:
     blox: "navbar"
     fixed_to_top: true
     show_search: true
-    show_theme_chooser: true
+    show_theme_chooser: false
     logo:
-      text: "Your Name"
+      text: "Brandon P. Pipher"
 
 # Site footer
 footer:
+  blox: minimal
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Brandon P. Pipher. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization

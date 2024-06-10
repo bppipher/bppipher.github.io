@@ -37,7 +37,7 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: 'January 2000'
+      date_format: '01/02/06'
       # Education or Experience section first?
 #       is_education_first: false
 #   - block: collection

@@ -24,8 +24,8 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          #filename: network-4851079_1920.jpg
-          filename: 3d-flowing-cyber-particles-with-shallow-depth-field.jpg
+          filename: network-4851079_1920.jpg
+          #filename: 3d-flowing-cyber-particles-with-shallow-depth-field.jpg
           filters:
             brightness: 0.4
           size: cover
@@ -39,7 +39,7 @@ sections:
       # Hugo date format
       date_format: '01/02/06'
       # Education or Experience section first?
-#       is_education_first: false
+      is_education_first: false
 #   - block: collection
 #     id: papers
 #     content:

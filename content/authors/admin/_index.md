@@ -57,7 +57,8 @@ education:
     date_start: 
     date_end: 
     summary: |
-        My thesis was on regression methods to induce sparsity, with a focus on non-convex penalties for penalized regression.
+      My studies included measure-theoretic probability and statistical computing.
+      My research was on regression methods to induce sparsity, with a focus on non-convex methodologies.
     button:
         text: 'Read Thesis'
         url: 'http://rave.ohiolink.edu/etdc/view?acc_num=kent1573056251025985'
@@ -66,7 +67,8 @@ education:
     date_start: 
     date_end: 
     summary: |
-      
+      My studies included topics in real analysis and abstract algebra.
+
 work:
   - position: Mathematical Statistician
     company_name: United States Census Bureau
@@ -163,4 +165,4 @@ awards:
 
 ## About Me
 
-Mathematical Statistician at U.S. Census Bureau.
+Mathematical Statistician at the U.S. Census Bureau.

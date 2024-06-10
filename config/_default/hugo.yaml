@@ -6,7 +6,7 @@
 # Website name
 title: Brandon P. Pipher
 # Website URL
-baseURL: 'brandonpipher.com'
+baseURL: 'https://brandonpipher.com'
 
 ############################
 ## LANGUAGE

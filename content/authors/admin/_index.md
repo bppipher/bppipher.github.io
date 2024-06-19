@@ -58,6 +58,7 @@ education:
     date_end: 2019-12-01
     summary: |
       My studies included measure-theoretic probability and statistical computing.
+      
       My research was on regression methods to induce sparsity, with a focus on non-convex methodologies.
     button:
         text: 'Read Thesis'
@@ -68,6 +69,8 @@ education:
     date_end: 2017-05-01
     summary: |
       My studies included topics in real analysis and abstract algebra.
+      - Member of Phi Sigma Alpha: Buchtel College of Arts and Sciences Scholastic Honorary Society
+      - Member and Treasurer of Pi Mu Epsilon: Mathematics Honorary Society (Ohio Nu Chapter)
 
 work:
   - position: Mathematical Statistician

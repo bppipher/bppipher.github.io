@@ -46,16 +46,16 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-2553-3212
 
-interests:
-  - Lorem ipsum
-  - Lorem ipsum
-  - Lorem ipsum
+# interests:
+#   - Lorem ipsum
+#   - Lorem ipsum
+#   - Lorem ipsum
 
 education:
   - area: MS in Applied Mathematics
     institution: Kent State University
-    date_start: 
-    date_end: 
+    date_start: 2017-08-01
+    date_end: 2019-12-01
     summary: |
       My studies included measure-theoretic probability and statistical computing.
       My research was on regression methods to induce sparsity, with a focus on non-convex methodologies.
@@ -64,8 +64,8 @@ education:
         url: 'http://rave.ohiolink.edu/etdc/view?acc_num=kent1573056251025985'
   - area: BS in Mathematics
     institution: University of Akron
-    date_start: 
-    date_end: 
+    date_start: 2013-08-01
+    date_end: 2017-05-01
     summary: |
       My studies included topics in real analysis and abstract algebra.
 
@@ -74,24 +74,25 @@ work:
     company_name: United States Census Bureau
     company_url: ''
     company_logo: ''
-    date_start: ''
+    date_start: 2021-07-01
     date_end: ''
     summary: |
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Independently implemented assigned projects that required the application of mathematical and statistical theory for the Decennial Directorate’s (ADDC) Decennial Statistical Studies Division’s (DSSD) Sampling Branch.
+      - Engaged in research and development of the methodology for the 2030 Post-Enumeration Survey (PES). Incorporated administrative records and other Census data products to enhance and refine population estimates.
+      - Conducted research under the Continuous Count Study project which was built on the <a href="https://www2.census.gov/programs-surveys/decennial/2020/program-management/evaluate-docs/EAE-2020-admin-records-experiment.pdf">2020 Administrative Record Census Simulation</a>. Worked to improve and redesign population estimates for intercensal years and also evaluated Census coverage methods. Utilized various modeling methods such as Log-Linear modeling or Latent-Class modeling to produce estimates and imputations. Select preliminary findings will be presented at the <a href="https://ww3.aievolution.com/JSMAnnual2024/Events/viewEv?ev=2792">2024 Joint Statistical Meetings</a>.
+      - Provided statistical programming support for the <a href="https://www2.census.gov/programs-surveys/decennial/coverage-measurement/pes/national-census-coverage-estimates-by-demographic-characteristics.pdf">2020 Post-Enumeration Survey (PES)</a>.  Performed feature selection and developed imputation models for the probability of being either an Inmover or Nonmover for the components of coverage estimation of the 2020 Census.
   - position: Quantitative Analyst
     company_name: Nations Lending
     company_url: ''
     company_logo: ''
-    date_start: ''
-    date_end: ''
+    date_start: 2020-09-01
+    date_end: 2021-07-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Collaborated with the Risk Management, Compliance, and Product teams to create automated reporting, dashboards, and generate analytic insights on Key Performance Indicators (KPIs) and to monitor Objectives and Key Results (OKRs).
+      - Regularly summarized findings into high-level results for presentation to senior management and other stakeholders. Incorporated customized and agile reporting to enhance insights and monitor key takeaways.
+      - Developed time series forecasting models leveraging publicly available data to predict quarterly mortgage loan originations. Utilized Natural Language Processing to gain novel insights into the mortgage life cycle to improve efficiency and reduce closing times.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`

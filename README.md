@@ -4,11 +4,11 @@ https://gohugo.io/
 https://hugoblox.com/
 
 # Set up
-Steps are more specifically tailored to windows and are easier on linux
+Steps are more specifically tailored to windows and are easier on linux. I leverage git bash.
 
-Clone theme repository (theme-academic-cv from hugoblox).  Github Desktop can even be used.
+Clone theme repository (theme-academic-cv from hugoblox).  Github Desktop can always be used.
 
-Install Git, Gom and Hugo (using winget).  Can be ran from VS Code Powershell Terminal (not Windows Powershell).
+Install Git, Go and Hugo (easy using winget).  All of this can be ran from VS Code Powershell Terminal (not Windows Powershell).
 
 Use 'hugo' to set up and 'hugo server -D' to serve locally with draft posts.
 

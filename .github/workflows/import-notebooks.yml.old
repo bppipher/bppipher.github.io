@@ -1,5 +1,5 @@
-# Hugo Blox GitHub Action to convert Bibtex publications to Markdown-based webpages
-name: Import Publications From Bibtex
+# Hugo Blox GitHub Action to import Jupyter Notebooks as blog posts
+name: Import Jupyter Notebooks as Blog Posts
 
 # Require permission to create a PR
 permissions:
@@ -10,7 +10,7 @@ permissions:
 on:
   push:
     branches: ['main']
-    paths: ['publications.bib']
+    paths: ['notebooks/*.ipynb']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,26 +29,23 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install academic==0.10.0
-      - name: Run Academic (Bibtex To Markdown Converter)
-        # Check `.bib` file exists for case when action runs on `.bib` deletion
-        # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
-        if: ${{ hashFiles('publications.bib') != '' }}
-        run: academic import publications.bib content/publication/ --compact
+          pip install academic==0.11.2
+      - name: Run Academic Converter Tool
+        run: academic import 'notebooks/*.ipynb' content/post/ --verbose
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: 'content: import publications from Bibtex'
-          title: Hugo Blox Builder - Import latest publications
+          commit-message: 'content: import blog posts from `notebooks/` folder'
+          title: Hugo Blox Builder - Import latest blog posts
           body: |
-            Import the latest publications from `publications.bib` to `content/publication/`.
-            将最新的出版物从`publications.bib`导入到`content/publication/`。
+            Convert Jupyter Notebooks in the `notebooks/` folder into blog posts in the `content/post/` folder.
+            将`notebooks/`文件夹中的Jupyter笔记本转换为`content/post/`文件夹中的博客帖子。
             [View Documentation](https://github.com/GetRD/academic-file-converter)
           base: main
           labels: automated-pr, content
-          branch: hugoblox-import-publications
+          branch: hugoblox-import-posts
           delete-branch: true
       - name: Check outputs
         if: ${{ steps.cpr.outputs.pull-request-number }}

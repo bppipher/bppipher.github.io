@@ -73,7 +73,7 @@ education:
       - Member and Treasurer of Pi Mu Epsilon: Mathematics Honorary Society (Ohio Nu Chapter)
 
 work:
-  - position: Mathematical Statistician
+  - position: Supervisory Mathematical Statistician
     company_name: United States Census Bureau
     company_url: ''
     company_logo: ''
